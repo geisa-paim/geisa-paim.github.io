@@ -228,3 +228,11 @@ header{
   max-width: 66rem;
   flex: 1;
 }
+
+
+/*footer*/
+footer{
+  padding: 2rem 2rem;
+  background-color: var(--cor-primaria);
+  text-align: center;
+}
