@@ -328,7 +328,7 @@ header{
   position: absolute;
   right: 0;
   bottom: 0;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: var(--text-color);
   background-color: var(--cor-terciaria);
   border-radius: 6px 0px;
