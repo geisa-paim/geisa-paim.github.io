@@ -194,11 +194,17 @@ p:not(:last-of-type),
   transition: .3s;
 }
 
+/*header*/
+header{
+  margin-top: 12rem;
+}
+
 /*about*/
 .about{
   display: flex;
   justify-content: space-between;
   gap: 4rem;
+  margin-top: 12rem;
   scroll-margin-left: 20rem;
 }
 
