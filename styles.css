@@ -5,6 +5,7 @@
   --header-height: 4.5rem;
 
   /*---------------PALETA DE CORES-------------------*/
+  --cor-body: #ffffff;
   --cor-primaria: #F6FCFC;
   --cor-secundaria: #8DDFCB;
   --cor-terciaria: #82A0D8;
@@ -41,7 +42,7 @@ body {
   margin-top: 15rem;
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
-  background-color: var(--cor-primaria);
+  background-color: var(--cor-body);
   color: var(--text-color);
   line-height: 1.6;
 }
@@ -225,7 +226,7 @@ header{
 }
 
 .about .about__right{
-  max-width: 60rem;
+  max-width: 64rem;
   flex: 1;
 }
 
