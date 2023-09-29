@@ -5,7 +5,7 @@
   --header-height: 4.5rem;
 
   /*---------------PALETA DE CORES-------------------*/
-  --cor-primaria: #F9F3CC;
+  --cor-primaria: #F6FCFC;
   --cor-secundaria: #8DDFCB;
   --cor-terciaria: #82A0D8;
   --cor-quaternaria: #EDB7ED;
@@ -41,7 +41,7 @@ body {
   margin-top: 15rem;
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
-  background-color: var(--body-color);
+  background-color: var(--cor-primaria);
   color: var(--text-color);
   line-height: 1.6;
 }
