@@ -193,3 +193,32 @@ p:not(:last-of-type),
   transform: scale(1.25);
   transition: .3s;
 }
+
+/*about*/
+.about{
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  scroll-margin-left: 20rem;
+}
+
+.about .about__left{
+  max-width: 40rem;
+  flex: 1;
+}
+
+.about .about__left .about__image .logo{
+  width: 60%;
+  border-radius: 4rem;
+  max-width: 100%;
+  min-width: 25rem;
+}
+
+.about .about__left p{
+  margin: 1rem 0 2rem;
+}
+
+.about .about__right{
+  max-width: 66rem;
+  flex: 1;
+}
