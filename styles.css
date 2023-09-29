@@ -104,7 +104,7 @@ p:not(:last-of-type),
 
 .max-width {
   width: 100%;
-  max-width: 150rem;
+  max-width: 120rem;
   padding: 0 4rem;
   margin: 0 auto;
   margin-bottom: 26rem;
