@@ -58,7 +58,7 @@ a {
 h1 {
   font-size: 6.4rem;
   font-weight: 700;
-  color: var(--);
+  color: var(--text-color);
 }
 
 .titulo-secundario {
@@ -163,7 +163,7 @@ p:not(:last-of-type),
   left: 0;
   width: 100%;
   z-index: 10;
-  background-color: var(--cor-secundaria);
+  background-color: var(--cor-primaria);
   color: var(--text-color);
   font-weight: 550;
 }
