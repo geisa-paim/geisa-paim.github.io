@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/js" href="bootstrap/js/bootstrap.min.js">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="imgs/icon.png">
+        <title>Geu Ecobags</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <!-- NAV -->
+            <nav class="nav bd-container">
+                <h1><a href="logotipo.png" class="logo">Geu Ecobags</a></h1>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="sobremim.html" class="nav__link">Sobre mim</a></li>
+                        <li class="nav__item"><a href="produtos.html" class="nav__link">Produtos</a></li>
+                        <li class="nav__item"><a href="faleconosco.html" class="nav__link">Fale conosco</a></li>
+                        <li class="nav__item"><a href="trabalheconosco.html" class="nav__link">Trabalhe conosco</a></li>
+                        <form class="search-container">
+                            <input type="text" id="search-bar" placeholder="Busca">
+                            <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+                        </form>
+                    </ul>
+                </div>
+
+                <!--MENU TOGGLE-->
+                <div class="nav__toggle">
+                    <i class='bx bx-menu-alt-right' id="nav-toggle"></i>
+                </div>
+                <!-- END MENU TOGGLE -->
+            </nav>
+            <!-- END NAV -->
+        </header>
+        <main>
+            <!-- CARDÁPIO -->
+            <section class="cardapio section" id="cardapio">
+                <h1 class="section-title">Produtos</h1>
+                <h2 class="section-subtitle">Tortas</h2>
+                <div class="cardapio__container bd-container bd-grid">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgtortas/cheesecakefrutas.jpeg" alt="cheesecakefrutas">
+                        </div>
+                        <div class="card__data">
+                            <h3>Cheesecake</h3>
+                            <div class="card__descripition">
+                                <small>Torta base de cream cheese e cobertura de geléia de frutas vermelhas</small>
+                            </div>
+                        </div><br>
+                        <div class="card__preci">
+                            <span>R$ 80,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgtortas/brigadeiro.jpg" alt="brigadeiro">
+                        </div>
+                        <div class="card__data">
+                            <h3>Torta Brigadeiro</h3>
+                            <div class="card__descripition">
+                                <small>Torta de chocolate recheado com brigadeiro</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 75,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgtortas/tortasertaneja.jpg" alt="tortasertaneja">
+                        </div>
+                        <div class="card__data">
+                            <h3>Torta Sertaneja</h3>
+                            <div class="card__descripition">
+                                <small>Torta de carne com banana da terra</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 70,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgtortas/limão.jpg" alt="tortalimão">
+                        </div>
+                        <div class="card__data">
+                            <h3>Torta de limão</h3>
+                            <div class="card__descripition">
+                                <small>Casquinha assequilhada recheada com creme de limão e cobertura de suspiro </small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 70,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+                </div>
+
+                <h2 class="section-subtitle">Bolos</h2>
+                <div class="cardapio__container bd-container bd-grid">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgtortas/prestigio.jpg" alt="boloprestigio">
+                        </div>
+                        <div class="card__data">
+                            <h3>Bolo Prestígio</h3>
+                            <div class="card__descripition">
+                                <small>Bolo de chocolate recheado com brigadeiro de coco</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 80,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgbolos/trufado.jpg" alt="bolotrufado">
+                        </div>
+                        <div class="card__data">
+                            <h3>Bolo Trufado</h3>
+                            <div class="card__descripition">
+                                <small>Torta de chocolate recheado com trufa de chocolate e pedaços de morangos</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 80,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgbolos/redvelvet.jpg" alt="boloredvelvet">
+                        </div>
+                        <div class="card__data">
+                            <h3>Bolo Red Velvet</h3>
+                            <div class="card__descripition">
+                                <small>torta recheada e coberta com creme à base de cream cheese e leite condensado</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 85,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgbolos/formigueiro.jpg" alt="boloformigueiro">
+                        </div>
+                        <div class="card__data">
+                            <h3>Bolo Formigueiro</h3>
+                            <div class="card__descripition">
+                                <small>Bolo granulado de chocolate</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 65,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+                </div>
+
+                <h2 class="section-subtitle">Doces</h2>
+                <div class="cardapio__container bd-container bd-grid">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgdoces/brigadeiro.jpg" alt="brigadeiro">
+                        </div>
+                        <div class="card__data">
+                            <h3>Brigadeiro Belga</h3>
+                            <div class="card__descripition">
+                                <small>Brigadeiro de chocolate belga coberto com confeito belga</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 4,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgdoces/casadinho.jpg" alt="casadinho">
+                        </div>
+                        <div class="card__data">
+                            <h3>Casadinho</h3>
+                            <div class="card__descripition">
+                                <small>Brigadeiro preto e branco cobertos com açúcar refinado</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 3,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgdoces/alfajor.png" alt="alfajor">
+                        </div>
+                        <div class="card__data">
+                            <h3>Alfajor</h3>
+                            <div class="card__descripition">
+                                <small>Sequilho caseiro recheado com doce de leite coberto com calda de chocolate</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 5,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgdoces/moranguinho.jpg" alt="moranguinho">
+                        </div>
+                        <div class="card__data">
+                            <h3>Moranguinho</h3>
+                            <div class="card__descripition">
+                                <small>Morango fresco envolvido no brigadeiro</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 4,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+                </div>
+
+                <h2 class="section-subtitle">Salgados</h2>
+                <div class="cardapio__container bd-container bd-grid">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgsalgados/coxinha.jpg" alt="coxinha">
+                        </div>
+                        <div class="card__data">
+                            <h3>Coxinha</h3>
+                            <div class="card__descripition">
+                                <small>Sabores: Frango ou Carne Seca</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 5,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgsalgados/empada.jpg" alt="empada">
+                        </div>
+                        <div class="card__data">
+                            <h3>Empada</h3>
+                            <div class="card__descripition">
+                                <small>Sabores: Camarão, Frango ou Carne Seca</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 5,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgsalgados/pasteldeforno.jpg" alt="pastel de forno">
+                        </div>
+                        <div class="card__data">
+                            <h3>Pastel de forno</h3>
+                            <div class="card__descripition">
+                                <small>Sabores: Camarão, Frango, Ricota ou Carne Seca</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 6,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgsalgados/camaraoempanado.jpg" alt="camarão empaado">
+                        </div>
+                        <div class="card__data">
+                            <h3>Camarão Empanado</h3>
+                            <div class="card__descripition">
+                                <small>Empanado tradicional</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 7,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+                </div>
+            </section>
+            <!-- END CARDÁPIO -->
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer section bg-container">
+            <div class="footer__container bd-container" text-aling="center">
+                <div class="addres">
+                    <h3 class="logo">Geu Ecobags</h3>
+                    <small class="footer__subtittle">Bahia - Brasil</small>
+                    <small class="footer__subtittle">Salvador</small>
+                    <small class="footer__subtittle">(71) 98111-5416</small>
+                    <small class="footer__subtittle">geuecobags@gmail.com</small>
+                </div>
+            </div>
+            <p> &copy; 2023 | from Geisa Figueiredo</p>
+        </footer>
+        <!-- END FOOTER -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
