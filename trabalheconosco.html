@@ -27,29 +27,29 @@
         </nav>
         <main>
             <!-- CONTATO -->
-            <section class="contato section" id="contato">
-                <h1 class="section-title">Trabalhe conosco</h1>
-                <div class="contato__container bd-container bd-grid">
-                    <div class="contato__form">
-                        <h3 class="contato__title">Preencha todos os dados do formulário</h3>
-                        <form class="form-control">
-                            <label for="name">Nome Completo:</label>
-                            <input type="text" id="name">
-                            <label for="email">E-mail:</label>
-                            <input type="email" id="email">
-                            <label for="phone">Telefone:</label>
-                            <input type="tel" id="phone">
-                            <label for="addres">Endereço:</label>
-                            <input type="addres" id="addres">
-                            <label for="area">Área de interesse:</label>
-                            <input type="text" id="area">
-                            <label for="mensagem">Faça um breve resumo das suas experiências:</label>
-                            <textarea name="mensagem" id="mensagem" cols="50" rows="7"></textarea>
-                            <label for="anexo">Anexar seu currículo:</label>
+            <section id="contato" class="contact">
+                <div class="contact__content">
+                    <h2 class="titulo-secundario">Trabalhe Conosco</h2>
+                    <h3 class="contato__title">Preencha todos os dados do formulário</h3>
+                    <form action="">
+                        <label for="name">Seu nome Completo:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome completo: " required>
+                        <label for="email">Seu e-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Email:" required>
+                        <label for="phone">Seu telefone:</label>
+                        <input type="tel" name="tel" id="tel" placeholder="Seu telefone:">
+                        <label for="addres">Seu endereço:</label>
+                        <input type="addres" id="addres" placeholder="Endereço:" required>
+                        <label for="area">Sua área de interesse:</label>
+                        <input type="text" id="area" placeholder="Área de interesse:" required>
+                        <label for="mensagem">Faça um breve resumo das suas experiências:</label>
+                        <textarea name="" id="" placeholder="Sua mensagem:" required></textarea>
+                        <label for="anexo">Anexar seu currículo:</label>
                             <input type="file" id="file" name="file" style="float:left;margin:10px;"/>
-                            <button class="btn"  type="submit" value="Enviar">ENVIAR</button>
-                        </form>
-                    </div>
+                        <div class="btn">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
                 </div>
             </section>
             <!-- END CONTATO -->
