@@ -3,13 +3,12 @@
   --header-height: 4.5rem;
 
   /*---------------PALETA DE CORES-------------------*/
-  --first-color: #03989E;
-  --first-color_alt: #03989E;
-  --first-color_alt_light: #03989E;
-  --light-color: #ffffff;
-  --text-color: #030302;
-  --body-color: #ffffff;
-  --container-color: #CDEEEF;
+  --cor-primaria: #ECEE81;
+  --cor-secundaria: #8DDFCB;
+  --cor-terciaria: #82A0D8;
+  --cor-quaternaria: #EDB7ED;
+  --text-color-light: #f0f0f0;
+  --text-color: #0c0c0c;
 
   /*---------------FONTES DO SITE-------------------*/
   --body-font: "Georgia", sans-serif;
@@ -18,25 +17,6 @@
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
-  --normal-font-size: 0.935rem;
-  --small-font-size: 0.812rem;
-
-  /*---------------FONT WEIGHT-------------------*/
-  --font-light: 300;
-  --font-medium: 400;
-  --font-bold: 700;
-
-  /*---------------MARGENS DO SITE-------------------*/
-  --mb-1: 0.5rem;
-  --mb-2: 1rem;
-  --mb-3: 1.5rem;
-  --mb-4: 2rem;
-  --mb-5: 2.5rem;
-  --mb-6: 3rem;
-
-  /*---------------Z INDEXS-------------------*/
-  --Z-fixed: 100;
-  --z-tooltip: 10;
 }
 
 *,
