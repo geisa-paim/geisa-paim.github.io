@@ -256,6 +256,16 @@ header{
   align-items: center;
 }
 
+
+/*FAQ*/
+.faq__content{
+  font-family: var(--font-secundaria);
+}
+
+.faq__content h2{
+  text-align: center;
+}
+
 /*--produtos---*/
 .products{
   margin-top: 16rem;
