@@ -258,8 +258,10 @@ header{
 
 
 /*FAQ*/
-.faq__content{
+.faq__content .accordion-body{
   font-family: var(--font-secundaria);
+  font-size: 1.4rem;
+
 }
 
 .faq__content h2{
