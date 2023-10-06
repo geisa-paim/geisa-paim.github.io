@@ -210,7 +210,7 @@ header {
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: 5px;
-  background-color: #0187a7;
+  background-color: var(--cor-terciaria);
 }
 
 .button__whats button a {
