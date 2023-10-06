@@ -161,7 +161,7 @@ p:not(:last-of-type),
 }
 
 /*--navbar--*/
-.navbar{
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -172,31 +172,31 @@ p:not(:last-of-type),
   font-weight: 550;
 }
 
-.navbar .navbar__content{
+.navbar .navbar__content {
   padding: 2rem 3rem 1rem;
   display: flex;
   justify-content: space-between;
 }
 
-.navbar .navbar__content .navbar__links li{
+.navbar .navbar__content .navbar__links li {
   display: none;
   font-size: 2rem;
 }
 
-.navbar .navbar__content .navbar__links li:not(:last-of-type){
+.navbar .navbar__content .navbar__links li:not(:last-of-type) {
   margin-right: 2rem;
 }
 
-.navbar__links{
+.navbar__links {
   transition: all 1.5s;
 }
 
-.navbar .navbar__content .navbar__links a{
+.navbar .navbar__content .navbar__links a {
   padding: 1rem;
   display: inline-block;
 }
 
-.navbar .navbar__content .navbar__links a:hover{
+.navbar .navbar__content .navbar__links a:hover {
   color: var(--cor-terciaria);
   transform: scale(1.25);
   transition: .3s;
@@ -218,17 +218,17 @@ button:hover {
   background-color: var(--cor-quaternaria);
 }
 
-button:focus ~ ul{
+button:focus~ul {
   height: 120px;
 }
 
 /*header*/
-header{
+header {
   margin-top: 12rem;
 }
 
 /*about*/
-.about{
+.about {
   display: flex;
   justify-content: space-between;
   gap: 4rem;
@@ -236,29 +236,29 @@ header{
   scroll-margin-left: 16rem;
 }
 
-.about .about__left{
+.about .about__left {
   max-width: 40rem;
   flex: 1;
 }
 
-.about .about__left .about__image .logo{
+.about .about__left .about__image .logo {
   width: 60%;
   border-radius: 4rem;
   max-width: 100%;
   min-width: 25rem;
 }
 
-.about .about__left p{
+.about .about__left p {
   margin: 1rem 0 2rem;
 }
 
-.about .about__right{
+.about .about__right {
   max-width: 64rem;
   flex: 1;
 }
 
 /*redes sociais*/
-.redes__sociais{
+.redes__sociais {
   display: flex;
   justify-content: space-between;
   gap: 4rem;
@@ -269,18 +269,18 @@ header{
 }
 
 /*politica de privacidade*/
-.pdp h2{
+.pdp h2 {
   text-align: center;
 }
 
 /*--produtos---*/
-.products{
+.products {
   margin-top: 16rem;
   scroll-margin-top: 15rem;
   font-size: 2rem;
 }
 
-.products .titulo-secundario{
+.products .titulo-secundario {
   text-align: center;
 }
 
@@ -362,14 +362,14 @@ header{
 }
 
 /*contact*/
-.contact{
+.contact {
   margin-top: 16rem;
   scroll-margin-top: 15rem;
   text-align: center;
   font-size: 2rem;
 }
 
-form{
+form {
   max-width: 32rem;
   margin: 1rem auto 6rem;
   margin-top: 2rem;
@@ -379,7 +379,8 @@ form{
   gap: 1rem;
 }
 
-form input, form textarea{
+form input,
+form textarea {
   width: 100%;
   background-color: var(--cor-quaternaria);
   border: 0;
@@ -390,16 +391,16 @@ form input, form textarea{
   font-size: 1.5rem;
 }
 
-form textarea{
+form textarea {
   resize: none;
   max-width: 42rem;
 }
 
-form .btn{
+form .btn {
   margin-top: 3rem;
 }
 
-form .btn input{
+form .btn input {
   width: 14rem;
   color: var(--cor-texto);
   font-weight: 550;
@@ -407,29 +408,45 @@ form .btn input{
   cursor: pointer;
 }
 
-form .btn input:hover{
+form .btn input:hover {
   transform: scale(1.15);
   box-shadow: 0 0 10px var(--cor-terciaria);
 }
 
-.redes__sociais .icon{
+.redes__sociais .icon {
   max-width: 60rem;
   flex: 1;
 }
 
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 /*FAQ*/
-.faq{
+.faq {
   margin-top: 16rem;
   scroll-margin-top: 15rem;
   font-size: 2rem;
 }
 
-.faq h2, h3{
+.faq h2,
+h3 {
   text-align: center;
 }
 
 /*footer*/
-footer{
+footer {
   padding: 1rem 2rem;
   background-color: var(--cor-primaria);
   text-align: center;
