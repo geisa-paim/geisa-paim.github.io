@@ -202,6 +202,64 @@ header {
 }
 
 /*botão login*/
+.input__box label {
+  font-size: 14px;
+  color: var(--cor-texto);
+}
+
+.input__field {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 3px;
+  border-bottom: 1px solid var(--cor-terciaria);
+  cursor: text;
+}
+
+.input__field i {
+  font-size: 18px;
+  cursor: text;
+  color: var(--cor-texto);
+} 
+
+.input__field input {
+  border: none;
+  width: 260px;
+  background-color: transparent;
+  font-size: 18px;
+  padding: 0px 5px;
+}
+
+.input__field input:focus {
+  outline: none;
+}
+
+/* Forgot password */
+#forgot__password a {
+  text-decoration: none;
+  color: var(--cor-texto);
+  font-size: 12px;
+}
+
+#forgot__password a:hover {
+  color: var(--cor-terciaria);
+}
+
+/* Login Button */
+#login__button {
+  border: none;
+  background: var(--cor-terciaria);
+  padding: 7px;
+  border-radius: 3px;
+  color: var(--text-color-light);
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#login_button:hover {
+  transform: scale(1.05);
+}
 
 /*botão cadastre-se*/
 .cadastro__container {
