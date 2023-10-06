@@ -179,10 +179,6 @@ header {
   margin-right: 2rem;
 }
 
-.navbar__links {
-  transition: all 1.5s;
-}
-
 .navbar__links a {
   padding: 1rem;
   display: inline-block;
@@ -191,7 +187,7 @@ header {
 .navbar__links a:hover {
   color: var(--cor-terciaria);
   transform: scale(1.25);
-  transition: .3s;
+  transition: all .3s;
 }
 
 .navbar__item {
@@ -213,7 +209,7 @@ header {
   background-color: var(--cor-terciaria);
 }
 
-.button__whats button a {
+.button__whats button a{
   text-decoration: none;
   color: var(--text-color);
   font-weight: 500;
