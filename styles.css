@@ -447,9 +447,48 @@ h3 {
 
 /*footer*/
 footer {
-  padding: 1rem 2rem;
+  width: 100%;
+  padding: 3rem 3.5rem;
   background-color: var(--cor-primaria);
   text-align: center;
+}
+
+#footer__content{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#footer__links{
+  display: flex;
+  flex-direction: column;
+  gap: 0.75;
+}
+
+#footer__copyright{
+  display: flex;
+  justify-content: center;
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
+}
+
+#footer__subscribe{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#input__group{
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: var(--cor-terciaria);
+}
+
+#input__group input{
+  all: unset;
+  padding: 0.75rem;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
