@@ -196,19 +196,19 @@ header {
 
 .navbar__item {
   margin: 0 15px;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 .navbar__link {
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 2rem;
   color: var(--text-color);
   font-weight: 400;
 }
 
 .button__whats button {
   border: none;
-  padding: 10px 15px;
+  padding: 0.6rem 1.2rem;
   border-radius: 5px;
   background-color: #0187a7;
 }
@@ -217,7 +217,7 @@ header {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 2rem;
 }
 
 .mobile-menu-icon {
