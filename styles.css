@@ -400,14 +400,7 @@ form .btn input:hover{
   flex: 1;
 }
 
-
-/*footer*/
-footer{
-  padding: 1rem 2rem;
-  background-color: var(--cor-primaria);
-  text-align: center;
-}
-
+/*FAQ*/
 .faq{
   margin-top: 16rem;
   scroll-margin-top: 15rem;
@@ -415,5 +408,12 @@ footer{
 }
 
 .faq h2, h3{
+  text-align: center;
+}
+
+/*footer*/
+footer{
+  padding: 1rem 2rem;
+  background-color: var(--cor-primaria);
   text-align: center;
 }
