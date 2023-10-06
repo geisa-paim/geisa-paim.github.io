@@ -525,6 +525,7 @@ footer {
   }
 
   .about .about__right {
+    max-width: 66rem;
     text-align: center;
   }
 }
