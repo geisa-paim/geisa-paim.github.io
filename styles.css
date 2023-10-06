@@ -23,6 +23,7 @@
 
   /*margens*/
   --mb-0: 0;
+  --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
   --mb-4: 2rem;
@@ -283,7 +284,7 @@ header {
 }
 
 .products__container {
-  padding: 1rem 4rem;
+  padding: 2rem 5rem;
 }
 
 .card {
@@ -301,11 +302,12 @@ header {
 
 .card img {
   border-radius: 8px 8px 0 0;
-  width: 30%;
+  width: 50%;
+  height: auto;
 }
 
 .card__data {
-  height: 6rem;
+  height: 8rem;
 }
 
 .card__data h3 {
@@ -322,7 +324,7 @@ header {
 
 .card__data small {
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
 }
@@ -513,7 +515,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1035px) {
   .about {
     flex-direction: column;
     align-items: center;
