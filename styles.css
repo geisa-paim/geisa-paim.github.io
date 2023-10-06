@@ -21,6 +21,7 @@
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
 
+  --mb-0: 0;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
   --mb-4: 2rem;
@@ -110,29 +111,9 @@ p:not(:last-of-type),
 .max-width {
   width: 100%;
   max-width: 120rem;
-  padding: 0 4rem;
+  padding: 0 3rem;
   margin: 0 auto;
   margin-bottom: 26rem;
-}
-
-.mb-0 {
-  margin-bottom: 0;
-}
-
-.mb-s {
-  margin-bottom: 1rem;
-}
-
-.mb-m {
-  margin-bottom: 2rem;
-}
-
-.mb-l {
-  margin-bottom: 4rem;
-}
-
-.mb-xl {
-  margin-bottom: 6rem;
 }
 
 .bd-container {
