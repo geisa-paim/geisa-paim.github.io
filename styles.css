@@ -238,14 +238,14 @@ header{
 }
 
 
-/*FAQ*/
-.faq__content .accordion-body{
+/*Politica de privacidade*/
+.pdp__content .accordion-body{
   font-family: var(--font-secundaria);
   font-size: 1.4rem;
 
 }
 
-.faq__content h2{
+.pdp__content h2{
   text-align: center;
 }
 
