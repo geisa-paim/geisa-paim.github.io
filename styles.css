@@ -179,12 +179,16 @@ p:not(:last-of-type),
 }
 
 .navbar .navbar__content .navbar__links li{
-  display: inline-block;
+  display: none;
   font-size: 2rem;
 }
 
 .navbar .navbar__content .navbar__links li:not(:last-of-type){
   margin-right: 2rem;
+}
+
+.navbar__links{
+  transition: all 1.5s;
 }
 
 .navbar .navbar__content .navbar__links a{
@@ -196,6 +200,26 @@ p:not(:last-of-type),
   color: var(--cor-terciaria);
   transform: scale(1.25);
   transition: .3s;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: var(--cor-texto);
+  font-size: 36px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  background-color: var(--cor-quaternaria);
+}
+
+button:focus ~ ul{
+  height: 120px;
 }
 
 /*header*/
