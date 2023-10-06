@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital@1');
 
-/*---------------VARIAVEIS CSS-------------------*/
+/*--variaveis--*/
 :root {
   --header-height: 4.5rem;
 
-  /*---------------PALETA DE CORES-------------------*/
+  /*--paleta de cores--*/
   --cor-body: #ffffff;
   --cor-primaria: #F6FCFC;
   --cor-secundaria: #8DDFCB;
@@ -13,7 +13,7 @@
   --text-color-light: #f0f0f0;
   --text-color: #0c0c0c;
 
-  /*---------------FONTES DO SITE-------------------*/
+  /*--fontes--*/
   --body-font: "Georgia", sans-serif;
   --font-logo: 'Alegreya Sans SC', sans-serif;
   --big-font-size: 2rem;
