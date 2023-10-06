@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital@1');
-
 /*--variaveis--*/
 :root {
   --header-height: 4.5rem;
@@ -13,9 +11,8 @@
   --text-color-light: #f0f0f0;
   --text-color: #0c0c0c;
 
-  /*--fontes--*/
+  /*--fontes/tamanho das fontes--*/
   --body-font: "Georgia", sans-serif;
-  --font-logo: 'Alegreya Sans SC', sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
