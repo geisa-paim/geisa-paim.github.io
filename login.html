@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links de estilização -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/js" href="bootstrap/js/bootstrap.min.js">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imgs/icon.png">
+    <!-- titulo -->
+    <title>Geu Ecobags</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logotipo">
+                <h1>GeuEcobags</h1>
+            </div>
+            <div class="navbar__links">
+                <ul>
+                    <li class="navbar__item"><a href="index.html" class="navbar__link">Home</a></li>
+                    <li class="navbar__item"><a href="sobremim.html" class="navbar__link">Sobre mim</a></li>
+                    <li class="navbar__item"><a href="produtos.html" class="navbar__link">Produtos</a></li>
+                    <li class="navbar__item"><a href="faleconosco.html" class="navbar__link">Fale Conosco</a></li>
+                    <li class="navbar__item"><a href="trabalheconosco.html" class="navbar__link">Trabalhe Conosco</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="button__whats">
+                <button>
+                    <a href="login.html">
+                        <i class="fa-solid fa-address-card"></i>
+                    </a>
+                </button>
+            </div>
+            <div class="button__whats">
+                <button>
+                    <a href="https://wa.me/557181115416">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                </button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="Abrirmenu()"><img class="icon" src="imgs/menu.svg" alt=""></button>
+            </div>
+        </nav>
+        <!-- navbar mobile -->
+        <div class="mobile-menu">
+            <ul>
+                <li class="navbar__item"><a href="index.html" class="navbar__link">Home</a></li>
+                <li class="navbar__item"><a href="sobremim.html" class="navbar__link">Sobre mim</a></li>
+                <li class="navbar__item"><a href="produtos.html" class="navbar__link">Produtos</a></li>
+                <li class="navbar__item"><a href="faleconosco.html" class="navbar__link">Fale Conosco</a></li>
+                <li class="navbar__item"><a href="trabalheconosco.html" class="navbar__link">Trabalhe Conosco</a></li>
+            </ul>
+            <div class="button__whats">
+                <button>
+                    <a href="login.html">
+                        <i class="fa-solid fa-address-card"></i>
+                    </a>
+                </button>
+            </div>
+            <div class="button__whats">
+                <button>
+                    <a href="https://wa.me/557181115416"><i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- fim da navbar -->
+    <div class="cadastro__container">
+        <div class="form__image">
+            <img src="imgs/logo.png" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form__header">
+                    <div class="title">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="login__button">
+                        <button><a href="cadastro.html">Cadastre-se</a></button>
+                    </div>
+                </div>
+
+                <div class="input__group">
+                    <div class="input-box">
+                        <label for="name">
+                            Name
+                            <div class="input-field">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" id="name" name="name">
+                            </div>
+                        </label>
+                    </div>
+
+                    <!-- EMAIL -->
+                    <div class="input-box">
+                        <label for="email">
+                            E-mail
+                            <div class="input-field">
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="email" id="email" name="email">
+                            </div>
+                        </label>
+                    </div>
+
+                    <!-- PASSWORD -->
+                    <div class="input-box">
+                        <label for="password">
+                            Password
+                            <div class="input-field">
+                                <i class="fa-solid fa-key"></i>
+                                <input type="password" id="password" name="password">
+                            </div>
+                        </label>
+
+                        <!-- FORGOT PASSWORD -->
+                        <div id="forgot_password">
+                            <a href="#">
+                                Forgot your password?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LOGIN BUTTON -->
+                <button type="submit" id="login_button">
+                    Login
+                </button>
+        </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
