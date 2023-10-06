@@ -325,19 +325,20 @@ header {
 
 .card__data small {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
 }
 
 .card__preci {
-  margin-top: var(--mb-3);
+  margin-top: var(--mb-4);
 }
 
 .card__preci span {
   font-weight: 700;
   font-size: var(--h2-font-size);
   position: relative;
+  top: 0.5rem;
   left: 1rem;
   bottom: 1rem;
 }
